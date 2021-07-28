@@ -34,8 +34,8 @@ class About extends Component {
                     subtitle={item.description}
                     leftAvatar={{ source: require('./images/bootstrap-logo.png') }}
                 />
-            )
-        }
+            );
+        };
         return (
             <ScrollView>
                 <Mission />
